@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__
+*~
+auto/
+*.aux
+*.log
+*.out
+*.nosync
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+solution/
+.vscode/settings.json
