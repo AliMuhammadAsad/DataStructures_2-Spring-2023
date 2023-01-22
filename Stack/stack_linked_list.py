@@ -45,12 +45,16 @@ class Stack:
 
 ## Testing for Stack
 # stack = Stack()
+# print(stack.pop())
+# print(stack.pop())
+# print(stack.top())
 # for i in range(1,11):
 #     stack.push(i)
 
 # print(f"Stack: {stack}")
+# print(f"Top of stack is: {stack.top()}")
 
 # for i in range(6):
 #     print(f"Popped: {stack.pop()}")
-
+# print(f"Top of stack is: {stack.top()}")
 # print(f"Stack: {stack}")
