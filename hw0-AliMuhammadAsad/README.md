@@ -3,6 +3,9 @@
 # CS 201 Data Structures 2, Spring 2023
 ***
 
+# TLDR:
+The hw0.pdf file contains the prompt; the requirements of the homework and the tasks we were supposed to perform. This homework was ungraded, and was released for us to get a basic grip on OOP in python as previously we only studied OOP in C++. This homework also familiarised us with `pytest`. We were required to update the files `course.py`, `recipe.py`, and `schedule.py` with our codes - more specifically, implement classes for those scenarios, and then test our code through the files `test_course.py` and `test_recipe.py`. There were no test cases for `schedule.py` so that remains untested, however, the code was still added for that file.  
+
 # Purpose
 
 This assignment will acquaint you with the structure and format of forthcoming assignments. It is meant for your practice and is ungraded but you are highly encouraged to attempt it so as to have an easier time with later, graded assignments.
