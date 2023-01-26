@@ -12,3 +12,19 @@ class Queue:
     def __init__(self)->None:
         self.front = None
         self.rear = None 
+    
+    def enqueue(self, data)->None:
+        if self.rear is None:
+            self.front = Node(data)
+            self.rear = self.front
+        else:
+            self.rear.next = Node(data)
+            self.rear = self.rear.next
+    
+    def dequeue(self):
+        if self.head is None:
+            return "Cannot dequeue from an empty queue"
+        else:
+            val = self.front.data
+            self.front = self.front.next
+            return val
