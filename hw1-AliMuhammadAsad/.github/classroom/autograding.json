@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 01",
+      "setup": "sudo -H pip3 install pytest pillow",
+      "run": "pytest test_myimage.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
